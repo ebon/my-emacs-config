@@ -7,13 +7,12 @@
 ;; http://weblog.nekonya.com/2010/11/cocoa-emacs-python.html
 ;; http://sheephead.homelinux.org/2009/09/29/1614/
 ;; http://d.hatena.ne.jp/shiba1029196473/20100403/1270310658
-;;; python-mode
 
 
 ;; 実行後、カーソルのフォーカスが*Help*や*Python Output*バッファに移動しない
 ;; [[http://d.hatena.ne.jp/y_yanbe/20060629/1151589858][python-mode on emacs 環境向上計画 - yanbe.log]]
 
-
+;;; python-mode
 (require 'python-mode)
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
 ;; (setq interpreter-mode-alist (cons '("python" . python-mode)
