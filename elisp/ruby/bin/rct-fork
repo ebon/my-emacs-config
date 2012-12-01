@@ -1,0 +1,6 @@
+#! /Users/nobeira/.rvm/rubies/ruby-1.9.2-p180/bin/ruby
+
+require 'rcodetools/fork'
+
+Rcodetools::Fork.start_server ARGV
+
