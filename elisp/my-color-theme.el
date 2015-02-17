@@ -1,6 +1,6 @@
 (eval-when-compile    (require 'color-theme))
 (defun my-color-theme ()
-  "Color theme by Yoshiro Nobe, created 2010-07-08."
+  "Color theme, created 2010-07-08."
   (interactive)
   (color-theme-install
    '(my-color-theme
